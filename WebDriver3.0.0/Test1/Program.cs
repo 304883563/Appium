@@ -21,7 +21,7 @@ namespace Test1
             capabilities.SetCapability(MobileCapabilityType.NoReset, true);
             capabilities.SetCapability("newCommandTimeout", 3600);
             capabilities.SetCapability("getCurrentSession", true);
-            AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new Uri("http://127.0.0.1:4723/wd/hub"), capabilities, TimeSpan.FromSeconds(180));
+            AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new Uri("http://127.0.0.1:4733/wd/hub"), capabilities, TimeSpan.FromSeconds(180));
             var c= driver.SessionDetails;
         }
         static void test2()
