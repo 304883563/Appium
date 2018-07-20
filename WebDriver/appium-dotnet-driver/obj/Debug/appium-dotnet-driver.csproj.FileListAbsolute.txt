@@ -1,0 +1,13 @@
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\obj\Debug\appium-dotnet-driver.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\appium-dotnet-driver.dll
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\appium-dotnet-driver.pdb
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\Castle.Core.dll
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\Newtonsoft.Json.dll
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\WebDriver.dll
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\WebDriver.Support.dll
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\WebDriver.Support.pdb
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\bin\Debug\WebDriver.pdb
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\obj\Debug\appium_dotnet_driver.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\obj\Debug\appium-dotnet-driver.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\obj\Debug\appium-dotnet-driver.dll
+c:\users\admin\documents\visual studio 2015\Projects\WebDriver\appium-dotnet-driver\obj\Debug\appium-dotnet-driver.pdb

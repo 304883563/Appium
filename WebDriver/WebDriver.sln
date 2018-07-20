@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver", "WebDriver\WebDriver.csproj", "{26590BC7-8FF4-4805-B6A1-B7B6F4D9563F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver.Support", "WebDriver.Support\WebDriver.Support.csproj", "{590184F2-9838-4600-8439-6F6822EBDA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appium-dotnet-driver", "appium-dotnet-driver\appium-dotnet-driver.csproj", "{D5F076F9-EEB4-40AD-8FBF-C213926BD4D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test1", "Test1\Test1.csproj", "{F12A85A3-2286-4E0A-A1BB-FEB6D823C72E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26590BC7-8FF4-4805-B6A1-B7B6F4D9563F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26590BC7-8FF4-4805-B6A1-B7B6F4D9563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26590BC7-8FF4-4805-B6A1-B7B6F4D9563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26590BC7-8FF4-4805-B6A1-B7B6F4D9563F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590184F2-9838-4600-8439-6F6822EBDA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590184F2-9838-4600-8439-6F6822EBDA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590184F2-9838-4600-8439-6F6822EBDA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590184F2-9838-4600-8439-6F6822EBDA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F076F9-EEB4-40AD-8FBF-C213926BD4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F076F9-EEB4-40AD-8FBF-C213926BD4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F076F9-EEB4-40AD-8FBF-C213926BD4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F076F9-EEB4-40AD-8FBF-C213926BD4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12A85A3-2286-4E0A-A1BB-FEB6D823C72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12A85A3-2286-4E0A-A1BB-FEB6D823C72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12A85A3-2286-4E0A-A1BB-FEB6D823C72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12A85A3-2286-4E0A-A1BB-FEB6D823C72E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

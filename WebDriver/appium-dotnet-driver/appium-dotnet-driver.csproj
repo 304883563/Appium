@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5F076F9-EEB4-40AD-8FBF-C213926BD4D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>appium_dotnet_driver</RootNamespace>
+    <AssemblyName>appium-dotnet-driver</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appium\Android\AndroidCommandExecutionHelper.cs" />
+    <Compile Include="Appium\Android\AndroidDriver.cs" />
+    <Compile Include="Appium\Android\AndroidElement.cs" />
+    <Compile Include="Appium\Android\Enums\AndroidKeyCode.cs" />
+    <Compile Include="Appium\Android\Enums\AndroidKeyMetastate.cs" />
+    <Compile Include="Appium\Android\Enums\AutomatorSetting.cs" />
+    <Compile Include="Appium\Android\Enums\ConnectionType.cs" />
+    <Compile Include="Appium\Android\Interfaces\IHasNetworkConnection.cs" />
+    <Compile Include="Appium\Android\Interfaces\IHasSettings.cs" />
+    <Compile Include="Appium\Android\Interfaces\IPushesFiles.cs" />
+    <Compile Include="Appium\Android\Interfaces\IStartsActivity.cs" />
+    <Compile Include="Appium\AppiumCommand.cs" />
+    <Compile Include="Appium\AppiumCommandExecutionHelper.cs" />
+    <Compile Include="Appium\AppiumDriver.cs" />
+    <Compile Include="Appium\AppiumDriverCommand.cs" />
+    <Compile Include="Appium\AppiumWebElement.cs" />
+    <Compile Include="Appium\Enums\AndroidMobileCapabilityType.cs" />
+    <Compile Include="Appium\Enums\AutomationName.cs" />
+    <Compile Include="Appium\Enums\IOSMobileCapabilityType.cs" />
+    <Compile Include="Appium\Enums\MobileBrowserType.cs" />
+    <Compile Include="Appium\Enums\MobileCapabilityType.cs" />
+    <Compile Include="Appium\Enums\MobilePlatform.cs" />
+    <Compile Include="Appium\Enums\MobileSelector.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsByClassName.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsByCssSelector.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsById.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsByLinkText.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsByName.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsByPartialLinkText.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsByTagName.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericFindsByXPath.cs" />
+    <Compile Include="Appium\Interfaces\Generic\SearchContext\IGenericSearchContext.cs" />
+    <Compile Include="Appium\Interfaces\IContextAware.cs" />
+    <Compile Include="Appium\Interfaces\IExecuteMethod.cs" />
+    <Compile Include="Appium\Interfaces\IFindByAccessibilityId.cs" />
+    <Compile Include="Appium\Interfaces\IFindByAndroidUIAutomator.cs" />
+    <Compile Include="Appium\Interfaces\IFindByIosUIAutomation.cs" />
+    <Compile Include="Appium\Interfaces\IFindByWindowsUIAutomation.cs" />
+    <Compile Include="Appium\Interfaces\IFindsByFluentSelector.cs" />
+    <Compile Include="Appium\Interfaces\IFindsByIosClassChain.cs" />
+    <Compile Include="Appium\Interfaces\IFindsByIosNSPredicate.cs" />
+    <Compile Include="Appium\Interfaces\IHasSessionDetails.cs" />
+    <Compile Include="Appium\Interfaces\IHidesKeyboard.cs" />
+    <Compile Include="Appium\Interfaces\IHidesKeyboardWithKeyName.cs" />
+    <Compile Include="Appium\Interfaces\IInteractsWithApps.cs" />
+    <Compile Include="Appium\Interfaces\IInteractsWithFiles.cs" />
+    <Compile Include="Appium\Interfaces\IMobileElement.cs" />
+    <Compile Include="Appium\Interfaces\IMultiAction.cs" />
+    <Compile Include="Appium\Interfaces\IPerformsTouchActions.cs" />
+    <Compile Include="Appium\Interfaces\ISendsKeyEvents.cs" />
+    <Compile Include="Appium\Interfaces\ITouchAction.cs" />
+    <Compile Include="Appium\iOS\Enums\HideKeyboardStrategy.cs" />
+    <Compile Include="Appium\iOS\Interfaces\IPerformsTouchID.cs" />
+    <Compile Include="Appium\iOS\Interfaces\IShakesDevice.cs" />
+    <Compile Include="Appium\iOS\IOSCommandExecutionHelper.cs" />
+    <Compile Include="Appium\iOS\IOSDriver.cs" />
+    <Compile Include="Appium\iOS\IOSElement.cs" />
+    <Compile Include="Appium\Location.cs" />
+    <Compile Include="Appium\MobileBy.cs" />
+    <Compile Include="Appium\MultiAction\MultiAction.cs" />
+    <Compile Include="Appium\MultiAction\TouchAction.cs" />
+    <Compile Include="Appium\PageObjects\AppiumPageObjectMemberDecorator.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\Abstract\FindsByMobileAttribute.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\Abstract\FindsByUIAutomatorsAttribute.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\FindsByAndroidUIAutomatorAttribute.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\FindsByIOSUIAutomationAttribute.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\FindsBySelendroidAttribute.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\MobileFindsByAllAttribute.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\MobileFindsBySequenceAttribute.cs" />
+    <Compile Include="Appium\PageObjects\Attributes\WithTimeSpanAttribute.cs" />
+    <Compile Include="Appium\PageObjects\ByFactory.cs" />
+    <Compile Include="Appium\PageObjects\ContentMappedBy.cs" />
+    <Compile Include="Appium\PageObjects\ContentTypes.cs" />
+    <Compile Include="Appium\PageObjects\GenericsUtility.cs" />
+    <Compile Include="Appium\PageObjects\Interceptors\ElementInterceptor.cs" />
+    <Compile Include="Appium\PageObjects\Interceptors\ElementListInterceptor.cs" />
+    <Compile Include="Appium\PageObjects\Interceptors\SearchingInterceptor.cs" />
+    <Compile Include="Appium\PageObjects\TimeOutDuration.cs" />
+    <Compile Include="Appium\PageObjects\WebDriverUnpackUtility.cs" />
+    <Compile Include="Appium\ScreenOrientationExtensions.cs" />
+    <Compile Include="Appium\Service\AppiumCommandExecutor.cs" />
+    <Compile Include="Appium\Service\AppiumLocalService.cs" />
+    <Compile Include="Appium\Service\AppiumServiceBuilder.cs" />
+    <Compile Include="Appium\Service\AppiumServiceConstants.cs" />
+    <Compile Include="Appium\Service\Exceptions\AppiumServerHasNotBeenStartedLocallyException.cs" />
+    <Compile Include="Appium\Service\Exceptions\InvalidNodeJSInstanceException.cs" />
+    <Compile Include="Appium\Service\Exceptions\InvalidServerInstanceException.cs" />
+    <Compile Include="Appium\Service\Options\AndroidOptionList.cs" />
+    <Compile Include="Appium\Service\Options\BaseOptionList.cs" />
+    <Compile Include="Appium\Service\Options\GeneralOptionList.cs" />
+    <Compile Include="Appium\Service\Options\IOSOptionList.cs" />
+    <Compile Include="Appium\Service\Options\OptionCollector.cs" />
+    <Compile Include="Appium\Windows\Enums\WindowsKeyCodes.cs" />
+    <Compile Include="Appium\Windows\WindowsDriver.cs" />
+    <Compile Include="Appium\Windows\WindowsElement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Appium\Service\get_path_to_default_node.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebDriver.Support\WebDriver.Support.csproj">
+      <Project>{590184f2-9838-4600-8439-6f6822ebda4f}</Project>
+      <Name>WebDriver.Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebDriver\WebDriver.csproj">
+      <Project>{26590bc7-8ff4-4805-b6a1-b7b6f4d9563f}</Project>
+      <Name>WebDriver</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

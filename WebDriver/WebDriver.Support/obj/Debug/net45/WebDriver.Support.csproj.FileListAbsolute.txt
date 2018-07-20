@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\build\cli\Debug\net45\WebDriver.Support.xml
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\build\cli\Debug\net45\WebDriver.Support.dll
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\build\cli\Debug\net45\WebDriver.Support.pdb
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\dotnet\src\support\obj\Debug\net45\WebDriver.Support.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\dotnet\src\support\obj\Debug\net45\WebDriver.Support.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\dotnet\src\support\obj\Debug\net45\WebDriver.Support.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\dotnet\src\support\obj\Debug\net45\WebDriver.Support.AssemblyInfo.cs
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\dotnet\src\support\obj\Debug\net45\WebDriver.Support.csproj.CopyComplete
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\dotnet\src\support\obj\Debug\net45\WebDriver.Support.dll
+C:\Users\admin\Desktop\調試\selenium-selenium-3.11.0\dotnet\src\support\obj\Debug\net45\WebDriver.Support.pdb
