@@ -6,3 +6,11 @@ c:\users\admin\documents\visual studio 2015\Projects\WebDriver\WebDriver.Support
 c:\users\admin\documents\visual studio 2015\Projects\WebDriver\WebDriver.Support\bin\Debug\WebDriver.pdb
 c:\users\admin\documents\visual studio 2015\Projects\WebDriver\WebDriver.Support\obj\Debug\WebDriver.Support.dll
 c:\users\admin\documents\visual studio 2015\Projects\WebDriver\WebDriver.Support\obj\Debug\WebDriver.Support.pdb
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\bin\Debug\WebDriver.Support.dll
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\bin\Debug\WebDriver.Support.pdb
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\bin\Debug\WebDriver.dll
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\bin\Debug\Newtonsoft.Json.dll
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\bin\Debug\WebDriver.pdb
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\obj\Debug\WebDriver.Support.csprojResolveAssemblyReference.cache
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\obj\Debug\WebDriver.Support.dll
+E:\GITHUB\Appium\WebDriver\WebDriver.Support\obj\Debug\WebDriver.Support.pdb

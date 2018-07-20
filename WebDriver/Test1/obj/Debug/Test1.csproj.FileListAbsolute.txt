@@ -12,3 +12,17 @@ c:\users\admin\documents\visual studio 2015\Projects\WebDriver\Test1\bin\Debug\W
 c:\users\admin\documents\visual studio 2015\Projects\WebDriver\Test1\obj\Debug\Test1.csprojResolveAssemblyReference.cache
 c:\users\admin\documents\visual studio 2015\Projects\WebDriver\Test1\obj\Debug\Test1.exe
 c:\users\admin\documents\visual studio 2015\Projects\WebDriver\Test1\obj\Debug\Test1.pdb
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\Test1.exe.config
+E:\GITHUB\Appium\WebDriver\Test1\obj\Debug\Test1.exe
+E:\GITHUB\Appium\WebDriver\Test1\obj\Debug\Test1.pdb
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\Test1.exe
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\Test1.pdb
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\appium-dotnet-driver.dll
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\WebDriver.dll
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\WebDriver.Support.dll
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\Newtonsoft.Json.dll
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\Castle.Core.dll
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\appium-dotnet-driver.pdb
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\WebDriver.Support.pdb
+E:\GITHUB\Appium\WebDriver\Test1\bin\Debug\WebDriver.pdb
+E:\GITHUB\Appium\WebDriver\Test1\obj\Debug\Test1.csprojResolveAssemblyReference.cache
