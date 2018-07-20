@@ -58,7 +58,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebDriver\WebDriver\WebDriver.csproj">
+    <ProjectReference Include="..\WebDriver\WebDriver.csproj">
       <Project>{4006c25b-6688-4563-a7b4-a3b5b136762d}</Project>
       <Name>WebDriver</Name>
     </ProjectReference>
