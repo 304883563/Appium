@@ -1121,8 +1121,10 @@ namespace OpenQA.Selenium.Remote
             DesiredCapabilities returnedCapabilities = null;
             //20180720 Liuzh
             if (desiredCapabilities.HasCapability("getCurrentSession")) {
-                 response = this.Execute(DriverCommand.GetSessionList, null);
+                //获取appium当前SessionID和SessionDetails列表集合
+                response = this.Execute(DriverCommand.GetSessionList, null);
                  IList<object> values = ((IList<object>)response.Value);
+                //一般移动只会有一个Session存在。取第一个
                 if (values.Count > 0)
                 {
                     object msg = values[0];
@@ -1137,11 +1139,13 @@ namespace OpenQA.Selenium.Remote
             }
             else
             {
+                //原始逻辑 获取新的会话
                 response = this.Execute(DriverCommand.NewSession, parameters);
                 Dictionary<string, object> rawCapabilities = (Dictionary<string, object>)response.Value;
                 returnedCapabilities = new DesiredCapabilities(rawCapabilities);
               
             }
+            //并把获取SessionID和SessionDetails存到本地
             this.capabilities = returnedCapabilities;
             this.sessionId = new SessionId(response.SessionId);
 
